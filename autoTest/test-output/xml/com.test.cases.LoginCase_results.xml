@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="E:/demo/auto-autotest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="15.138">
+  <properties />
+  
+  
+            <testcase name="LoginTest" time="15.138" classname="com.test.cases.LoginCase" />
+      
+</testsuite>

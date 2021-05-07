@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/demo/auto-autotest">
+        <classes>
+            <class name="com.test.cases.LoginCase">
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <!--testng的XML配置文件中添加这些内容-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+</suite>
